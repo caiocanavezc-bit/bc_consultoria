@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 132" role="img" aria-labelledby="title desc">
+  <title id="title">Bergamo Canavez</title>
+  <desc id="desc">Assessoria e Consultoria</desc>
+  <g fill="#F7F6F2">
+    <text x="4" y="83" font-family="Arial, Helvetica, sans-serif" font-size="91" font-weight="300" letter-spacing="-8">BC</text>
+    <rect x="185" y="18" width="2" height="74" rx="1"/>
+    <text x="204" y="54" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="500" letter-spacing="3.5">BERGAMO</text>
+    <text x="204" y="87" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="500" letter-spacing="3.5">CANAVEZ</text>
+    <text x="44" y="119" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" letter-spacing="6.1">ASSESSORIA E CONSULTORIA</text>
+  </g>
+</svg>
