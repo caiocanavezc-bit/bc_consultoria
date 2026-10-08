@@ -14,7 +14,7 @@ try {
         $requestTarget = if ($requestLine -match '^GET\s+([^\s]+)') { $Matches[1] } else { '/' }
         $requestPath = ([Uri]::new("http://localhost$requestTarget")).AbsolutePath
         $relativePath = [Uri]::UnescapeDataString($requestPath.TrimStart('/'))
-        if ([string]::IsNullOrWhiteSpace($relativePath)) { $relativePath = 'main.html' }
+        if ([string]::IsNullOrWhiteSpace($relativePath)) { $relativePath = 'index.html' }
         $candidate = [IO.Path]::GetFullPath((Join-Path $root $relativePath))
 
         if (-not $candidate.StartsWith($root, [StringComparison]::OrdinalIgnoreCase) -or -not (Test-Path -LiteralPath $candidate -PathType Leaf)) {
